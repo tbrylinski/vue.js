@@ -1,0 +1,62 @@
+#root {
+	font-family: sans-serif;
+}
+
+.app {
+	margin-top: 25px;
+}
+
+.table {
+	width: 100%;
+}
+
+.table th, .table td {
+	vertical-align: middle;
+}
+
+.table td button {
+	display: inline-block;
+}
+
+.table td span {
+	cursor: pointer;
+}
+
+.task-descr, .task-actions {
+	width: 100%;
+}
+
+.buttons-wrapper {
+	display: flex;
+}
+
+.buttons-wrapper .btn:first-of-type {
+	margin-right: 15px;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.tasks-group {
+	margin-bottom: 50px;
+}
+
+.align-right {
+	justify-content: flex-end;
+	display: flex;
+}
+
+@media screen and (max-width: 767px) {
+
+	.btn {
+		font-size: 0.7rem;
+		padding: 0.5rem;
+	}
+
+	.form-control {
+		height: calc(~"2.1rem + 2px");
+		font-size: 0.7rem;
+	}
+
+}
