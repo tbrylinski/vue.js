@@ -1,0 +1,43 @@
+#root {
+	font-family: sans-serif;
+}
+
+.app {
+	margin-top: 25px;
+}
+
+.calculator {
+	margin-bottom: 25px;
+	display: block;
+}
+
+.calculator__result {
+	margin-bottom: 25px;
+}
+
+.calculator__result > .form-control {
+	text-align: right;
+	font-size: 2rem;
+	height: 50px;
+}
+
+.calculator__content {
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: wrap;
+	display: flex;
+	border-collapse: collapse;
+}
+
+.calculator__btn {
+	background-clip: content-box;
+	line-height: 90px;
+	border-radius: 0;
+	font-size: 3rem;
+	padding: 2px;
+	width: 25%;
+}
+
+.calculator__btn--clear {
+	width: 75%;
+}
