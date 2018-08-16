@@ -43,8 +43,7 @@
 }
 
 .align-right {
-	justify-content: flex-end;
-	display: flex;
+	text-align: right;
 }
 
 @media screen and (max-width: 767px) {

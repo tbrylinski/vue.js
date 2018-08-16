@@ -40,7 +40,7 @@
 									</th>
 									<td>
 										<span v-if="!task.editing" v-on:click="toggleCompleted(task)" v-bind:class="{ 'done': task.completed }">{{ task.name }}</span>
-										<input v-else v-on:keyup.13="toggleEdit(index)" type="text" ref="index" class="form-control" v-model="task.name">
+										<input v-else v-on:keyup.13="toggleEdit(index)" ref="task_ref" type="text" class="form-control" v-model="task.name">
 									</td>
 									<td class="align-right">
 										<button v-if="!task.editing" v-on:click="toggleEdit(index)" class="btn btn-primary">Edit</button>
