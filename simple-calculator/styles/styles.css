@@ -8,7 +8,17 @@
 
 .calculator {
 	margin-bottom: 25px;
+	position: relative;
 	display: block;
+}
+
+.calculator__expression {
+	position: absolute;
+	text-align: right;
+	font-size: 14px;
+	max-width: 100%;
+	top: -25px;
+	left: 0;
 }
 
 .calculator__result {
